@@ -11,3 +11,8 @@ The real-time monopoly object detection system I designed in C++ using YOLOv5s
     Figure 1: Example screenshot caption here.
   </figcaption>
 </figure>
+
+
+
+
+
