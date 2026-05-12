@@ -8,4 +8,4 @@ The real-time monopoly object detection system I designed in C++ using YOLOv5s.
   <em>Figure 1: Main System Setup.</em>
 </p>
 
-Figure 1 includes the main Monopoly board game, 4K camera with overhead mount, and laptop running YOLOv5s trained on my custom Monopoly board game image dataset. Visit [OpenAI](https://openai.com) for more information.
+Figure 1 includes the main Monopoly board game, 4K camera with overhead mount, and laptop running YOLOv5s trained on my [custom Monopoly board game image dataset](https://universe.roboflow.com/monopoly-board-game-pieces/monopoly-game-board-high-resolution-image-dataset).
