@@ -1,6 +1,6 @@
 # Real-Time-Monopoly-Object-Detection
 
-<h2><ins>Larger underlined text</ins></h2>
+<h1><ins>Larger underlined text</ins></h1>
 
 The goal of this project is to keep track of the game state of a live Monopoly board game being played by 2 players using a single top-down view camera.
 
