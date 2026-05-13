@@ -14,6 +14,7 @@ Monopoly is one of the world’s most famous board games, and yet official in-pe
 <h3><ins>Difficulties</ins></h3>
 Traditional CV techniques such as Template Matching, SIFT, Hough Transform, and Color Thresholding were deemed too slow, highly variant to lighting conditions, and/or ineffective altogether. It was determined that a computer vision machine learning-based approach would be necessary. 
 
+
 However, upon researching, it was determined that there were no adequate Monopoly image datasets. Therefore, I needed to create my own unique dataset to train a YOLOv5s computer vision  model to recognize the game state. 
 
 <p align="center">
