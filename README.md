@@ -1,5 +1,6 @@
 # Real-Time-Monopoly-Object-Detection
-The real-time monopoly object detection system I designed in C++ using YOLOv5s.
+The goal of this project is to keep track of the game state of a live Monopoly board game being played by 2 players using a single top-down view camera.
+
 
 <p align="center">
   <img width="450" alt="Screenshot 2026-05-12 182025"
