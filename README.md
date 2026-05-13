@@ -4,12 +4,8 @@
 
 The goal of this project is to keep track of the game state of a live Monopoly board game being played by 2 players using a single top-down view camera.
 
-<p align="center">
-  <img width="450" alt="image"
-  src="https://github.com/user-attachments/assets/ebd4cbd6-fa1a-482f-b2fa-e55bb13b28ec">
-  <br>
-  <em>Figure 2: Your caption here.</em>
-</p>
+<img width="1314" height="406" alt="Screenshot 2026-05-12 201442" src="https://github.com/user-attachments/assets/ffbb5301-5307-41ef-997d-13c347764bf4" />
+
 
 <h3><ins>Why?</ins></h3>
 
