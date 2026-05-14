@@ -29,7 +29,20 @@ The main system setup includes the main Monopoly board game, 4K camera with over
 
 There are four main parts to this system: 
 
-<h4><ins>Picking an object detection technique</ins></h4>
+<h4><ins>1) Picking an object detection technique</ins></h4>
+
+<p align="center">
+  <img width="315" alt="image"
+  src="https://github.com/user-attachments/assets/6e96d233-fd9d-43cd-8cb8-04562c46c115">
+  <br>
+  <em>Your caption here</em>
+</p>
+
+YOLOv5s was picked because it runs faster on edge devices and still had a good mAP score. It was known that 
+
+
+
+
 
 
 <!-- This is a comment 
