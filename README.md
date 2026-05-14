@@ -76,7 +76,7 @@ The game state tracking logic included cropping the board, realigning the board 
   <img width="1500" alt="image"
   src="https://github.com/user-attachments/assets/31a591f3-ee6a-4077-9a9e-9824610f04a7">
   <br>
-  <em>iii</em>
+  <em>(Left) The cropped and rotated board. (Right) The board after running inferencing and recognizing each game piece</em>
 </p>
 
 
