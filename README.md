@@ -34,7 +34,7 @@ There are four main parts to this system:
 <h4><ins>Step 1) Picking an object detection technique</ins></h4>
 
 <!-- <p align="center">
-  <img width="315" alt="image"
+  <img width="250" alt="image"
   src="https://github.com/user-attachments/assets/6e96d233-fd9d-43cd-8cb8-04562c46c115">
   <br>
   <em>YOLOv5s characteristics</em>
