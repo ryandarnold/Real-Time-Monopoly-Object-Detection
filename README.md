@@ -81,7 +81,7 @@ The game state tracking logic included cropping the board, realigning the board 
 
 
 <p align="center">
-  <img width="700" alt="image"
+  <img width="500" alt="image"
   src="https://github.com/user-attachments/assets/bde4a724-c2cb-405d-9ffb-e5d5616cca7d">
   <br>
   <em>Best dataset results</em>
