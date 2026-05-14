@@ -56,6 +56,7 @@ I created 3 training datasets to see which one had the highest mAP score:
 <h4><ins>Step 3) Training the model over my custom dataset </ins></h4>
 
 Ultralytics’s YOLOv5s was trained over:
+
 ○ Batch size = [16, 8, 4, 2, 1]
 
 ○ Image resize = [640, 960, 1280, 1600, 1984]
