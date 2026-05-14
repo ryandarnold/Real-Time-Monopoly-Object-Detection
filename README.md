@@ -70,7 +70,16 @@ Ultralytics’s YOLOv5s was trained over:
 
 Once the model was trained over my custom dataset, I ran inferencing and implemented the game state tracking logic. 
 
-The game state tracking logic included cropping the board, realigning the board so its always upright on screen, keeping track of where each 
+The game state tracking logic included cropping the board, realigning the board so its always upright on screen, keeping track of where each game piece was on the board, and determining if it had moved from its previous location: 
+
+<p align="center">
+  <img width="1500" alt="image"
+  src="https://github.com/user-attachments/assets/31a591f3-ee6a-4077-9a9e-9824610f04a7">
+  <br>
+  <em>iii</em>
+</p>
+
+
 
 <!-- This is a comment 
 <h3><ins>Dataset</ins></h3>
