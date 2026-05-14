@@ -33,13 +33,6 @@ There are four main parts to this system:
 
 <h4><ins>Step 1) Picking an object detection technique</ins></h4>
 
-<!-- <p align="center">
-  <img width="250" alt="image"
-  src="https://github.com/user-attachments/assets/6e96d233-fd9d-43cd-8cb8-04562c46c115">
-  <br>
-  <em>YOLOv5s characteristics</em>
-</p> -->
-
 <p align="center">
   <img width="700" alt="image"
   src="https://github.com/user-attachments/assets/bccfb268-f5b0-4f23-9131-e2c92f63c005">
@@ -57,16 +50,20 @@ I took 240 original Monopoly dataset images that included 29 classes and 5200+ m
 
 I created 3 training datasets to see which one had the highest mAP score:
 1) A Baseline dataset ('Version 2 (V2)', with 240 images)
-2) The Baseline dataset and up to +/- 15 degree rotation dataset ('Version 7 (V7), with 539 images)
+2) The Baseline dataset and up to +/- 15 degree rotation dataset ('Version 7 (V7)', with 539 images)
 3) Baseline + rotation + up to 15 pixel blur ('Version 9 (V9)', with 540 images)
 
 <h4><ins>Step 3) Training the model over my custom dataset </ins></h4>
 
 Ultralytics’s YOLOv5s was trained over:
 ○ Batch size = [16, 8, 4, 2, 1]
+
 ○ Image resize = [640, 960, 1280, 1600, 1984]
+
 ○ Optimizers = [SGD, Adam, AdamW]
+
 ○ +29 other default hyperparameters
+
 
 <h4><ins>Step 4) Run Inferencing and Implement Gameplay Logic </ins></h4>
 
