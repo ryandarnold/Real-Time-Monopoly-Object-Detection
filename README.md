@@ -1,4 +1,12 @@
 # Real-Time-Monopoly-Object-Detection
+Final Product Demo: 
+
+
+
+https://github.com/user-attachments/assets/74ef263b-7bc4-40eb-a6d0-4535d7bb6c5e
+
+
+
 
 <h3><ins>Goal</ins></h3>
 
