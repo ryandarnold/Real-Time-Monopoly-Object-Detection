@@ -41,7 +41,7 @@ There are four main parts to this system:
 </p> -->
 
 <p align="center">
-  <img width="1223" alt="image"
+  <img width="1000" alt="image"
   src="https://github.com/user-attachments/assets/bccfb268-f5b0-4f23-9131-e2c92f63c005">
   <br>
   <em>YOLOv5s characteristics</em>
