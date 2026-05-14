@@ -81,26 +81,12 @@ The game state tracking logic included cropping the board, realigning the board 
 
 
 <p align="center">
-  <img width="1300" alt="image"
+  <img width="1000" alt="image"
   src="https://github.com/user-attachments/assets/bde4a724-c2cb-405d-9ffb-e5d5616cca7d">
   <br>
   <em>Best dataset results</em>
 </p>
 
 
-<!-- This is a comment 
-<h3><ins>Dataset</ins></h3>
-
-The dataset included 
-
-<h3><ins>Results</ins></h3>
-
-The best training dataset and its graphs...
-
-<h3><ins>What's next?</ins></h3>
-
-<h3><ins>How the system worked (flow chart here?)</ins></h3>
-
-what to do next...
 
 -->
