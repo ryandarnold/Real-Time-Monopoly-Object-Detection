@@ -31,6 +31,8 @@ There are four main parts to this system:
 
 <h4><ins>Picking an object detection technique</ins></h4>
 
+
+<!-- This is a comment 
 <h3><ins>Dataset</ins></h3>
 
 The dataset included 
@@ -44,3 +46,5 @@ The best training dataset and its graphs...
 <h3><ins>How the system worked (flow chart here?)</ins></h3>
 
 what to do next...
+
+-->
