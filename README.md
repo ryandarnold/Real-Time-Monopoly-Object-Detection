@@ -79,11 +79,35 @@ The game state tracking logic included cropping the board, realigning the board 
   <em>(Left) The cropped and rotated board. (Right) The board after running inferencing and recognizing each game piece</em>
 </p>
 
-
+<h4><ins> Results </ins></h4>
 <p align="center">
   <img width="500" alt="image"
   src="https://github.com/user-attachments/assets/bde4a724-c2cb-405d-9ffb-e5d5616cca7d">
   <br>
   <em>Best dataset results</em>
 </p>
+
+Training the YOLOv5s model on the V7 dataset was shown to have the best mAP results, and thus this model was used to run inferencing and implement the gameplay logic.
+
+<p align="center">
+  <img width="1582" alt="image"
+  src="https://github.com/user-attachments/assets/986e98a8-0971-42ff-9341-74fc2ca49b2e">
+  <br>
+  <em>(Left) The Precision-Recall Curve. (Right) The F1-Confidence Curve.</em>
+</p>
+
+<h4><ins>Difficulties encountered and their potential solutions </ins></h4>
+
+1) Sometimes the model would say that it 'found' a game piece, when the game piece really wasn't there. Or, it would say it did NOT find a game piece that was actually there. This would happen every frame running at about 5FPS. One solution for this would be to keep a counter for each piece found. Only if a piece is found for 'x' number of frames in a row would it count as "found". A "not found" piece would need to be removed for 'y' number of frames in a row.
+
+2) Inferencing is run every frame, and sometimes the model determines that the piece has 'moved' a few pixels, when it physical game piece didn't actually move. This causes an issue when trying to determine if a game piece moved, or money was exchanged. To combat this, you can try to find the average center of each game piece, and if the average center moved outside a certain radius 'r' after 'x' number of frames, then you can determine that the game piece moved
+
+3) Dice values are often confused for each other. An ensemble method can be used, in which the main YOLO model would determine if the game piece was a dice at all, and then a separate model, trained on determining dice values, would then be used.
+
+4) Since any player at any time can buy, sell or trade property to another player for any amount, it is not possible to verify the agreed-upon sell price for a property. Thus, a microphone and NLP must be employed.
+
+5) Players don't normally have their property cards on the board, so board cropping may not be needed, but a maximum-distance-away distance from the board that property cards can be must be enforced. Also, players may hold their money in their hand away from the camera, and may exchange properties/money away from the camera. Again, adding a microphone and implementing NLP will probably lead to a solution.
+
+6) Finally, all game pieces must be trained on, as only a subset of all game pieces are used to train the YOLOv5s model.
+
 
