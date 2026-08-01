@@ -6,7 +6,7 @@ Final Product Demo:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b175007e-a4a9-4a6d-aa12-a02bc4ee191b"
        alt="Monopoly Demo"
-       width="400">
+       width="450">
 </p>
 
 
