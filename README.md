@@ -12,8 +12,6 @@ Final Product Demo:
 
 
 
-https://github.com/user-attachments/assets/e2855015-c8be-49ed-a7bb-49cd630075a1
-
 
 
 
@@ -129,4 +127,8 @@ Training the YOLOv5s model on the V7 dataset was shown to have the best mAP resu
 
 6) Finally, all game pieces must be trained on, as only a subset of all game pieces are used to train the YOLOv5s model.
 
+
+Full Product Demo: 
+
+https://github.com/user-attachments/assets/e2855015-c8be-49ed-a7bb-49cd630075a1
 
