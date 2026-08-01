@@ -11,6 +11,7 @@ Final Product Demo:
 
 
 <h4><ins><b>Highlights</b></ins></h4>
+
 - Custom dataset of 240 4K images, 29 object classes, and 5,200+ manual annotations
 
 - Trained 45 YOLOv5 models across multiple optimizers and hyperparameter configurations
