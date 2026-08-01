@@ -1,9 +1,13 @@
 # Real-Time-Monopoly-Object-Detection
 Final Product Demo: 
 
-<img width="800" height="899" alt="592755542-e2855015-c8be-49ed-a7bb-49cd630075a1-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/b175007e-a4a9-4a6d-aa12-a02bc4ee191b" />
+<!-- <img width="800" height="899" alt="592755542-e2855015-c8be-49ed-a7bb-49cd630075a1-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/b175007e-a4a9-4a6d-aa12-a02bc4ee191b" /> -->
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b175007e-a4a9-4a6d-aa12-a02bc4ee191b"
+       alt="Monopoly Demo"
+       width="700">
+</p>
 
 
 
