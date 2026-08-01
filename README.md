@@ -12,8 +12,11 @@ Final Product Demo:
 
 <h4><ins><b>Highlights</b></ins></h4>
 - Custom dataset of 240 4K images, 29 object classes, and 5,200+ manual annotations
+
 - Trained 45 YOLOv5 models across multiple optimizers and hyperparameter configurations
+  
 - Achieved 0.944 mAP@0.5 and 0.826 mAP@0.5:0.95
+  
 - Implemented SIFT-based board orientation correction, contour-based board extraction, and gameplay state tracking
 
 
